@@ -58,7 +58,7 @@ export default function TodosPage() {
             <button
               key={f}
               onClick={() => setFilter(f)}
-              className={`px-4 py-2 rounded font-medium transition ${
+              className={`px-4 py-2 rounded cursor-pointer font-medium transition ${
                 filter === f
                   ? "bg-blue-500 text-white shadow-lg"
                   : "bg-gray-200 text-gray-700 hover:bg-gray-300 dark:bg-gray-700 dark:text-gray-300 dark:hover:bg-gray-600"

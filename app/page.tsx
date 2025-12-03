@@ -55,7 +55,7 @@ export default function Home() {
                 </Link>
                 <Link
                   href="/login"
-                  className="px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white font-medium rounded-lg transition text-center"
+                  className="px-6 py-3 cursor-pointer bg-blue-500 hover:bg-blue-600 text-white font-medium rounded-lg transition text-center"
                 >
                   Log In
                 </Link>
